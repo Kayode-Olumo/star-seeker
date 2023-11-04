@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    /* font-family: 'Azonix'; */
+    text-align: left;
+    padding: 40px;
+    height: 16.5rem;
+}
+
+.banner p {
+    font-size: 2rem !important;
+
+}

@@ -1,0 +1,9 @@
+.journey-container {
+    display: flex;
+    justify-content: center;
+}
+
+.journey-label {
+    color: #c5c5c5 !important;
+    font-size: 12px !important;
+}

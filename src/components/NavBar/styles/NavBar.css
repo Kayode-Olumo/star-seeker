@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Azonix";
+    src: url(/src/fonts/azonix/Azonix.otf);
+}
+
+.star-nav {
+    display: flex;
+    justify-content: space-between ;
+    list-style-type: none;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+.star-logo {
+    font-family: "Azonix", sans-serif;
+    cursor: pointer; 
+}
+
+.star-links {
+    list-style-type: none;
+    display: flex;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.star-link {
+    display: block;
+    padding: 1rem;
+    cursor: pointer;   
+}

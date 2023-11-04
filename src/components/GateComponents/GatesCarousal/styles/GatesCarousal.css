@@ -1,0 +1,28 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.gates-carousal {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 24.5%;
+    gap: var(--size-3);
+    text-align: center;
+    margin: 60px;
+    font-family: 'Azonix';
+    color: #5f5f5f;
+    font-size: 13px;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+.gates-carousal-item > img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+   
+.snap-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer, 1rem);
+}
